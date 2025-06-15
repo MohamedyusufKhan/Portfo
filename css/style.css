@@ -36,21 +36,51 @@ font-family: 'Open Sans', sans-serif;
 /* typography
 ==================================================*/
 
-h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 80px;
-    line-height: 70px;
+h2 {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 40px;
+    line-height: 30px;
+    color: #fff; /* White text */
+    font-weight: bold;
+    text-shadow:
+        -1px -1px 0 #000,
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
 }
+
 
 h4 {
     font-family: 'Lato', sans-serif;
     text-transform: capitalize;
     letter-spacing: 2px;
     position: relative;
-    color: #425BB5;
+    color: #000000; /* White text */
+    font-weight: bold;
     margin-left: 40px;
     font-weight: 700;
+    text-shadow:
+        -1px -1px 0 #ece7e7,
+         1px -1px 0 #f3eeee,
+        -1px  1px 0 #eeebeb,
+         1px  1px 0 #ffffff;
 }
+h5 {
+    font-family: 'Helvetica', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    position: relative;
+    color: #ffffff; /* White text */
+    font-weight: bold;
+    margin-left: 30px;
+    font-weight: 700;
+    text-shadow:
+        -1px -1px 0 #000000,
+         1px -1px 0 #000000,
+        -1px  1px 0 #000000,
+         1px  1px 0 #000000;
+}
+
 
 h4:before {
     position: absolute;
@@ -59,7 +89,7 @@ h4:before {
     content: "";
     display: block;
     height: 2px;
-    background: #425BB5;
+    background: #b40000;
     top: 9px;
 }
 
@@ -312,8 +342,8 @@ a.active {
 .about-border {
     position: absolute;
     border: 10px solid #425BB5;
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 600px;
     top: 40px;
     left: 50px;
     z-index: 1
